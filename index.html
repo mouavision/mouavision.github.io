@@ -1,0 +1,433 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Hello, world!</title>
+</head>
+<body id="home" data-spy="scroll" data-target=".navbar" data-offset="100">
+    
+    <!--Nav Bar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">Brand</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#example">Feature</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item dropdown mr-0">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Categories
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="http://www.google.com" target="_blank" >Dog Breed Identifier</a>
+                                <a class="dropdown-item" href="#category" target="_blank">Gender Change</a>
+                                <div class="dropdown-item" href="#" target="_blank">Mood Identifier</div>
+                                <a class="dropdown-item" href="#" target="_blank">Other</a>
+                            </div>
+                        </li>                        
+                    </ul>
+
+                    <!-- search 
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                        -->
+
+                    <nav class="navbar navbar-light bg-light">
+                        <form class="form-inline">
+                            <button class="btn btn-outline-success" type="button" data-toggle="modal" data-target="#register">Register Now</button>
+                            <button class="btn btn-sm btn-outline-secondary" type="button" data-toggle="modal" data-target="#signin">Sign In</button>
+                        </form>
+                    </nav>
+                </div>
+            </div>
+    </nav>
+
+    <!--Jumbotron or important key content-->
+    <div class="jumbotron jumbotron-fluid bg-info text-white">
+        <div class="container text-center" style="padding:20% 0 10% 0;">
+            <h1 class="display-2">Vision Project</h1>
+            <p class="lead">My Vision Project info.</p>
+        </div>
+    </div>
+
+
+    <!--Whole Page Container-->
+    <div class="container text-center pt-5">
+
+        <!--EXAMPLE-->
+        <div class="row my-5 " id="example">
+
+            <div class="col-lg">
+                <h2 class="mb-3">Title</h2>
+                <img src="img/kazoua.png" class="img-fluid rounded "/>
+            </div>
+
+            <div class="col-lg">
+                <h2 class="mb-3">Title2</h2>
+                <img src="img/me.png" class="img-fluid rounded" />
+
+            </div>
+        </div>
+
+        <div style="background: rgba(0,0,0,0.1); height:1px; margin:5rem 0;"></div>
+
+
+        <!--Uploads-->
+        <h1 class="display-4 text-center my-5 text-muted">Try it Yourself!</h1>
+        <div class="row my-5">
+            
+            <div class="col-lg">
+                <h5 class="font-italic" style="margin:5rem;">Place your beautiful images here</h5>
+            </div>
+
+            <div class="col-lg">
+                <div class="upload-drop-zone" id="drop-zone">
+                    Just drag and drop files here
+                </div>
+                
+                    
+                </div>
+            </div>
+        </div>
+
+
+    <div style="background: rgba(0,0,0,0.1); height:1px; margin:5rem 0;"id="about"></div>
+
+
+    <!--Things you can do:-->
+    <h1 class="display-4 text-center my-5 text-muted" >What is this Project?</h1>
+    <div class="row">
+        <div class="col-md-6 col-lg-4 my-4">
+            <div class="card">
+                <img class="card-img-top" src="img/profile.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 my-4">
+            <div class="card">
+                <img class="card-img-top" src="img/profile.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 my-4">
+            <div class="card">
+                <img class="card-img-top" src="img/profile.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 my-4">
+            <div class="card">
+                <img class="card-img-top" src="img/profile.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 my-4">
+            <div class="card">
+                <img class="card-img-top" src="img/profile.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 my-4">
+            <div class="card">
+                <img class="card-img-top" src="img/profile.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+        </div>
+    </div><!-- /Things you can do -->
+    
+
+    <div id="category" style="background: rgba(0,0,0,0.1); height:1px; margin:5rem 0;"></div>
+
+
+    <!--List -->
+    <h1 class="display-4 text-center text-muted" style="margin:10rem 0 5rem 0;">Categories</h1>
+
+    <ul class="list-group" >
+        <li class="list-group-item">
+            <div class="d-flex justify-content-between">
+                <h3 class="mb-1">Dog Breed Identifier</h3>
+                <a href="#" class="badge badge-info p-2">Learn More</a>
+                
+            </div>
+            <p class="mb-1">Upload an image and we will try to identify the dog's breed!</p>
+        </li>
+        <li class="list-group-item">
+            <div class="d-flex justify-content-between">
+                <h3 class="mb-1">Gender Change</h3>
+                <a href="#" class="badge badge-info p-2">Learn More</a>
+            </div>
+            <p class="mb-1">Want to know how you look as the other gender? Click here!</p>
+        </li>
+        <li class="list-group-item">
+            <div class="d-flex justify-content-between">
+                <h3 class="mb-1">Mood Identifier</h3>
+                <a href="#" class="badge badge-info p-2">Learn More</a>
+            </div>
+            <p class="mb-1">We can probably even guess your mood!</p>
+        </li>
+        <li class="list-group-item">
+            <div class="d-flex justify-content-between">
+                <h3 class="mb-1">Other</h3>
+                <a href="#" class="badge badge-info p-2">Learn More</a>
+            </div>
+            <p class="mb-1">Speaker1</p>
+        </li>
+    </ul>
+    
+    
+    
+    <!--End Button to register-->
+    <div class="container text-center my-5">
+        <button type="button" class="btn btn-outline-info btn-lg my-5" data-toggle="modal" data-target="#register">What are you waiting for?  Register Now! </button>
+    </div>
+
+
+    <!--Footer-->
+    <div class="row py-3">
+        <div class="col-md-7">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <div class="btn-group dropup">
+                        <button type="button" class="btn btn-outline-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Main toggle
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Separated link</a>
+                        </div>
+                    </div>
+                </li>          
+            </ul>
+
+        </div>
+        <div class="col-md text-md-right">
+            <small>&copy; 2018 Mouacoding</small>
+        </div>
+    </div><!-- /footer -->
+
+    
+    <!-----------------
+        REGISTER MODAL
+        -------------->
+
+
+    <!-- Modal -->
+    <!--REGISTER-->
+    <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="register form" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-info text-white">
+                    <h5 class="modal-title" id="register-title">Register</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+
+                    <!--Registration-->
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="registername" placeholder="Enter Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="registeremail" aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="registerpassword" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-check-label" for="role">Role:</label>
+                            <select class="form-control" id="role">
+                                <option value="full stack js developer">Full Stack JavaScript Developer</option>
+                                <option value="front end developer">Front End Developer</option>
+                                <option value="back end developer">Back End Developer</option>
+                                <option value="designer">Designer</option>
+                                <option value="student">Student</option> 
+                            </select>
+                        </div>
+                    </form>
+
+                <!--Payment-->
+                    <hr class="mb-4" />
+                    <h5 class="mb-4">Payment Information</h5>
+
+                    <div class="form-row">
+                        <div class="col-lg-6 form-group">
+                            <label for="cc-num">Card Number:</label>
+                            <input class="form-control" id="cc-num" type="text">
+                        </div>
+
+                        <div class="col-lg form-group">
+                            <label for="zip">Zip Code:</label>
+                            <input class="form-control" id="zip" type="text">
+                        </div>
+
+                        <div class="col-lg form-group">
+                            <label for="cvv">CVV:</label>
+                            <input class="form-control" id="cvv" type="text">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <label class="col-lg-12">Expiration Date:</label>
+                        <div class="form-group col-lg-8">
+                            <select class="custom-select form-control" id="exp-month">
+                                <option value="1">1 - January</option>
+                                <option value="2">2 - February</option>
+                                <option value="3">3 - March</option>
+                                <option value="4">4 - April</option>
+                                <option value="5">5 - May</option>
+                                <option value="6">6 - June</option>
+                                <option value="7">7 - July</option>
+                                <option value="8">8 - August</option>
+                                <option value="9">9 - September</option>
+                                <option value="10">10 - October</option>
+                                <option value="11">11 - November</option>
+                                <option value="12">12 - December</option>
+                            </select> 
+                        </div>
+                        <div class="form-group col-lg">
+                            <select class="custom-select form-control" id="exp-year">
+                                <option value="2016">2016</option>
+                                <option value="2017">2017</option>
+                                <option value="2018">2018</option>
+                                <option value="2019">2019</option>
+                                <option value="2020">2020</option>
+                            </select>  
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="register-button">Register</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!--Sign In-->
+    <div class="modal fade" id="signin" tabindex="-1" role="dialog" aria-labelledby="register form" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-info text-white">
+                    <h5 class="modal-title" id="signin-title">Sign In</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+
+                    <!--Registration-->
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="signinemail" aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="signinpassword" placeholder="Password">
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="keeploggedin">
+                            <label class="form-check-label" for="exampleCheck1">Keep me logged in</label>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="signin-button">Sign In</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+
+</body>
+</html>
