@@ -23,7 +23,6 @@ xhr.onreadystatechange = function () {
         if (xhr.status === 200) {
             document.getElementById('register-button').innerHTML = xhr.responseText;
         } else {
-            alert(xhr.statusText);
         }
     }
 };
