@@ -3,7 +3,6 @@
 var registerButton = document.getElementById('register-button');
 
 $(registerButton).on('click', function () {
-    alert("SUBMIT");
 });
 
 
