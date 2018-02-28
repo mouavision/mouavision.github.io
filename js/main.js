@@ -39,7 +39,6 @@ xhr.send();
 var register = new XMLHttpRequest();
 register.onreadystatechange = function () {
     if (register.readyState === 4) {
-        alert(register.responseText);
     }
 }
 
